@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HomeWork_Abstract_Factory
 {
-    class AnimalWorld
+   public class AnimalWorld
     {
         private Herbivore herbivoreAnimal;
         private Carnivore carnivoreAnimal;
@@ -14,6 +14,8 @@ namespace HomeWork_Abstract_Factory
         public int BisonCount { get; set; } = 10;
         public int LionCount { get; set; } = 5;
         public int WolfCount { get; set; } = 8;
+        public int ElkCount { get; set; } = 2;
+        public int TigerCount { get; set; } = 1;
 
         public Herbivore CreateHerbivoreAnimal(IContinent continent)
         {
@@ -33,24 +35,34 @@ namespace HomeWork_Abstract_Factory
         //    carnivoreAnimal = continent.CreateCarnivore();
         //}
 
-        List<Herbivore> wildebeest = new List<Herbivore>();
-        List<Herbivore> bison = new List<Herbivore>();
-
-        List<Carnivore> lion = new List<Carnivore>();
-        List<Carnivore> wolf = new List<Carnivore>();
+        List<Herbivore> wildebeest;
+        List<Herbivore> bison;
+        List<Herbivore> elk;
+        List<Carnivore> lion;
+        List<Carnivore> wolf;
+        List<Carnivore> tiger;
 
         public void CreateAnimals()
         {
+            wildebeest = new List<Herbivore>(WildebeestCount);
+            bison = new List<Herbivore>(BisonCount);
+            elk = new List<Herbivore>(ElkCount);
+            lion = new List<Carnivore>(LionCount);
+            wolf = new List<Carnivore>(WolfCount);
+            tiger = new List<Carnivore>(TigerCount);
             for (int i = 0; i < WildebeestCount; i++) wildebeest.Add(new Wildebeest());
             for (int i = 0; i < BisonCount; i++) bison.Add(new Bison());
+            for (int i = 0; i < ElkCount; i++) elk.Add(new Elk());
             for (int i = 0; i < LionCount; i++) lion.Add(new Lion());
             for (int i = 0; i < WolfCount; i++) wolf.Add(new Wolf());
+            for (int i = 0; i < TigerCount; i++) tiger.Add(new Tiger());
         }
 
         public void MealsHerbivores()
         {
             foreach (var herbivore in wildebeest) herbivore.EatGrass();
             foreach (var herbivore in bison) herbivore.EatGrass();
+            foreach (var herbivore in elk) herbivore.EatGrass();
         }
 
         public void NutritionCarnivores()
@@ -96,6 +108,27 @@ namespace HomeWork_Abstract_Factory
                 {
                     wolf.RemoveAt(i);
                     WolfCount = wolf.Count();
+                }
+            }
+
+            for (int i = 0; i < TigerCount; i++)
+            {
+                int random = rnd.Next(0, ElkCount);
+                if (random != 0)
+                {
+                    tiger[i].Eat(elk[random - 1]);
+                    if (elk[random - 1].Life == false)
+                    {
+                        elk.RemoveAt(random - 1);
+                        ElkCount = elk.Count();
+                        continue;
+                    }
+                }
+                tiger[i].Power -= 10;
+                if (tiger[i].Power <= 0)
+                {
+                    tiger.RemoveAt(i);
+                    TigerCount = tiger.Count();
                 }
             }
         }

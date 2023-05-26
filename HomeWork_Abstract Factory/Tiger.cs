@@ -4,18 +4,17 @@ using System.Text;
 
 namespace HomeWork_Abstract_Factory
 {
-   public class Wolf : Carnivore
+    public class Tiger : Carnivore
     {
         public override int Power { get; set; }
         public override bool Life { get; set; }
 
-        public Wolf()
+        public Tiger()
         {
             Random random = new Random();
-            Power = random.Next(50, 80);
+            Power = random.Next(60, 110);
             Life = true;
         }
-
 
         public override void Eat(Herbivore herbivore)
         {
@@ -30,7 +29,7 @@ namespace HomeWork_Abstract_Factory
                 {
                     Power -= 10;
                 }
-                Console.WriteLine($"Волк охотится на {herbivore.GetType().Name}");
+                Console.WriteLine($"Тигр охотится на {herbivore.GetType().Name}");
             }
         }
     }

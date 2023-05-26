@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HomeWork_Abstract_Factory
 {
-    class Lion : Carnivore
+   public class Lion : Carnivore
     {
         public override int Power { get; set; }
         public override bool Life { get; set; }
@@ -30,7 +30,7 @@ namespace HomeWork_Abstract_Factory
                 {
                     Power -= 10;
                 }
-                //Console.WriteLine($"Лев охотится на {herbivore.GetType().Name}");
+                Console.WriteLine($"Лев охотится на {herbivore.GetType().Name}");
             }
         }
     }

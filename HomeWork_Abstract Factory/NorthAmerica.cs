@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HomeWork_Abstract_Factory
 {
-    class NorthAmerica : IContinent
+   public class NorthAmerica : IContinent
     {
         public Herbivore CreateHerbivore()
         {

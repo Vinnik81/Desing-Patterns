@@ -4,17 +4,16 @@ using System.Text;
 
 namespace HomeWork_Abstract_Factory
 {
-   public class Africa : IContinent
+    public class Eurasia : IContinent
     {
-
         public Herbivore CreateHerbivore()
         {
-            return new Wildebeest();
+            return new Elk();
         }
 
         public Carnivore CreateCarnivore()
         {
-            return new Lion();
+            return new Tiger();
         }
     }
 }

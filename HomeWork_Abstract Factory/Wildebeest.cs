@@ -20,7 +20,7 @@ namespace HomeWork_Abstract_Factory
         public override void EatGrass()
         {
             Weight += 10;
-           // Console.WriteLine("Антилопа ест траву");
+            Console.WriteLine("Антилопа ест траву");
         }
     }
 }
