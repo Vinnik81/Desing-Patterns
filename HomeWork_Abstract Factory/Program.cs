@@ -34,8 +34,13 @@ namespace HomeWork_Abstract_Factory
                     Console.WriteLine($"Количество львов: {animalWorld.LionCount}");
                     Console.WriteLine($"Количество волков: {animalWorld.WolfCount}");
                     Console.WriteLine($"Количество тигров: {animalWorld.TigerCount}");
+
+                    Console.WriteLine("\nДля выхода нажмите ESC");
                 }
-                else if (Console.ReadKey().Key == ConsoleKey.Escape) Environment.Exit(0);
+                else if (Console.ReadKey().Key == ConsoleKey.Escape)
+                {
+                    Environment.Exit(0);
+                }
             }
             while (true);
         }
