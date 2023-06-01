@@ -5,11 +5,13 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_Abstract Factory", "HomeWork_Abstract Factory\HomeWork_Abstract Factory.csproj", "{4A119C22-D3A9-43CA-A2D7-6DCDD33EA2E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{47A06F8A-771D-44B4-B180-2FA7B7F5E8C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{47A06F8A-771D-44B4-B180-2FA7B7F5E8C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory Pattern", "Abstract Factory Pattern\Abstract Factory Pattern.csproj", "{79F617E0-0207-4E6F-B1A1-28492D19DBEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract Factory Pattern", "Abstract Factory Pattern\Abstract Factory Pattern.csproj", "{79F617E0-0207-4E6F-B1A1-28492D19DBEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Method Pattern", "Factory Method Pattern\Factory Method Pattern.csproj", "{ADDF0077-EDD1-47C3-8ECA-CFC7491D30C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Method Pattern", "Factory Method Pattern\Factory Method Pattern.csproj", "{ADDF0077-EDD1-47C3-8ECA-CFC7491D30C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_Fcade_Pattern", "HomeWork_Fcade_Pattern\HomeWork_Fcade_Pattern.csproj", "{F9BCF889-81C0-4F5B-80B2-E2C20B8C7AE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{ADDF0077-EDD1-47C3-8ECA-CFC7491D30C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADDF0077-EDD1-47C3-8ECA-CFC7491D30C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADDF0077-EDD1-47C3-8ECA-CFC7491D30C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BCF889-81C0-4F5B-80B2-E2C20B8C7AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BCF889-81C0-4F5B-80B2-E2C20B8C7AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BCF889-81C0-4F5B-80B2-E2C20B8C7AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BCF889-81C0-4F5B-80B2-E2C20B8C7AE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
