@@ -1,4 +1,4 @@
-﻿namespace RefactoringGuru.DesignPatterns.Flyweight.Conceptual
+﻿namespace HomeWork_Flyweight
 {
     public class FlyweightFactory
     {

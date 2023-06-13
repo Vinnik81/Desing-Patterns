@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace RefactoringGuru.DesignPatterns.Flyweight.Conceptual
+namespace HomeWork_Flyweight
 {
     public class Flyweight
     {

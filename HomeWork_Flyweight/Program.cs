@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace RefactoringGuru.DesignPatterns.Flyweight.Conceptual
+namespace HomeWork_Flyweight
 {
     class Program
     {
