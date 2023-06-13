@@ -29,15 +29,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_Adapter_Pattern", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_Composite_Pattern", "HomeWork_Composite_Pattern\HomeWork_Composite_Pattern.csproj", "{0E795DE8-51D8-44C0-9422-4777DBF05C69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge Pattern", "Bridge Pattern\Bridge Pattern.csproj", "{D935095D-2A45-4DDF-BE52-3420FC655466}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge Pattern", "Bridge Pattern\Bridge Pattern.csproj", "{D935095D-2A45-4DDF-BE52-3420FC655466}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight Pattern", "Flyweight Pattern\Flyweight Pattern.csproj", "{E3DAEE21-D809-4809-B7B8-64F962072973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight Pattern", "Flyweight Pattern\Flyweight Pattern.csproj", "{E3DAEE21-D809-4809-B7B8-64F962072973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy Pattern", "Proxy Pattern\Proxy Pattern.csproj", "{380F37E4-CF34-4825-82D4-036D5217E4D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy Pattern", "Proxy Pattern\Proxy Pattern.csproj", "{380F37E4-CF34-4825-82D4-036D5217E4D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator Pattern", "Iterator Pattern\Iterator Pattern.csproj", "{CB0B8187-EFF7-485A-8FAE-E4B246ECCF7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator Pattern", "Iterator Pattern\Iterator Pattern.csproj", "{CB0B8187-EFF7-485A-8FAE-E4B246ECCF7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento Pattern", "Memento Pattern\Memento Pattern.csproj", "{93AB1878-6895-4CAC-BB7B-8717149C00B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento Pattern", "Memento Pattern\Memento Pattern.csproj", "{93AB1878-6895-4CAC-BB7B-8717149C00B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_Flyweight", "HomeWork_Flyweight\HomeWork_Flyweight.csproj", "{C6DE1FA8-B949-49B2-B384-43E9E77271A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{93AB1878-6895-4CAC-BB7B-8717149C00B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93AB1878-6895-4CAC-BB7B-8717149C00B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93AB1878-6895-4CAC-BB7B-8717149C00B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6DE1FA8-B949-49B2-B384-43E9E77271A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DE1FA8-B949-49B2-B384-43E9E77271A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DE1FA8-B949-49B2-B384-43E9E77271A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DE1FA8-B949-49B2-B384-43E9E77271A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
